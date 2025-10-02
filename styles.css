@@ -1,0 +1,111 @@
+/* ===============================================
+   FONDO 
+=============================================== */
+.bg-gradient-custom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+/* ===============================================
+   COMPONENTES BÁSICOS
+=============================================== */
+.list-group-item.active {
+    background-color: rgba(13, 110, 253, 0.1);
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+/* Asegurar visibilidad de elementos */
+.d-none {
+    display: none !important;
+}
+
+/* Cards con fondo semi-transparente */
+.card {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* Header y Footer */
+header {
+    background: rgba(87, 88, 88, 0.95) !important;
+}
+
+footer {
+    background: rgba(90, 91, 92, 0.95) !important;
+}
+
+body.bg-gradient-custom {
+    background: url('Image.png') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* =============================
+   BOTONES PASTELES PERSONALIZADOS
+============================= */
+.btn-pastel-primary {
+    background-color: #a3c9f7;
+    color: #234567;
+    border: none;
+}
+.btn-pastel-primary:hover {
+    background-color: #8bbbe6;
+    color: #234567;
+}
+
+.btn-pastel-success {
+    background-color: #b7e5c2;
+    color: #22543d;
+    border: none;
+}
+.btn-pastel-success:hover {
+    background-color: #9fd8b0;
+    color: #22543d;
+}
+
+.btn-pastel-warning {
+    background-color: #fff3b0;
+    color: #7c6f00;
+    border: none;
+}
+.btn-pastel-warning:hover {
+    background-color: #ffe580;
+    color: #7c6f00;
+}
+
+.btn-pastel-danger {
+    background-color: #f7b7b7;
+    color: #7c2323;
+    border: none;
+}
+.btn-pastel-danger:hover {
+    background-color: #f48c8c;
+    color: #7c2323;
+}
+
+.btn-pastel-info {
+    background-color: #b7e0f7;
+    color: #22577a;
+    border: none;
+}
+.btn-pastel-info:hover {
+    background-color: #8fd3f4;
+    color: #22577a;
+}
+
+.btn-pastel-secondary {
+    background-color: #d6cdea;
+    color: #4b3869;
+    border: none;
+}
+.btn-pastel-secondary:hover {
+    background-color: #c2b6d9;
+    color: #4b3869;
+}
+
+.btn-pastel {
+    border-radius: 0.5rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    transition: background 0.2s, color 0.2s;
+}
